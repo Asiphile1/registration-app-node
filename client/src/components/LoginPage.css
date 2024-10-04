@@ -1,0 +1,130 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.login-left, .login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-left {
+  background-color: #2d3250;
+}
+
+.login-right {
+  background-color: #676f9d;
+  overflow: hidden;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #424769;
+  color: #424769;
+  border-radius: 5px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: #f9b17a;
+  color: rgb(20, 20, 20);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .login-page {
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+/* stock tune crisp pictures */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .login-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-left, .login-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .login-left {
+    background-color: #2d3250;
+  }
+  
+  .login-right {
+    background-color: #676f9d;
+    overflow: hidden;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #424769;
+    color: #424769;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #f9b17a;
+    color: rgb(20, 20, 20);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+/*   
+  .login-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* So the video covers the entire right side */
+  
+  
+  
+  
