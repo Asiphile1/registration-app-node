@@ -140,14 +140,11 @@ The backend will run on http://localhost:5000.
 * Firebase Authentication is used to manage user logins.
 * The login functionality is handled in the LoginPage.js component on the client.
 * Auth tokens are sent with API requests for user authorization.
-## Screenshots
-
 
 
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request to contribute changes or improvements.
-
 
 ## Author 
 ASIPHILE MTHETHWA
