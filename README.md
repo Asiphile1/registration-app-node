@@ -9,9 +9,9 @@ This is a full-stack employee registration system built using React.js on the cl
 * Technologies Used
 * Getting Started
 
-** Prerequisites
-** Firebase Setup
-** Installation
+* Prerequisites
+* Firebase Setup
+* Installation
 
 * Running the Application
 * API Endpoints
