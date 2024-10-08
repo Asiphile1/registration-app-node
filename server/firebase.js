@@ -1,10 +1,9 @@
-// server/firebase.js
-const admin = require('firebase-admin');
-const serviceAccount = require('./path-to-your-service-account.json'); // Download from Firebase console
+const admin = require("firebase-admin");
+const serviceAccount = require("./credentials/registrationapp-63c7c-firebase-adminsdk-ufwkq-a41d2fa9b5.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  storageBucket: 'your-firebase-project-id.appspot.com', // Firebase storage
+  storageBucket: "registrationapp-63c7c.appspot.com",
 });
 
 const db = admin.firestore();
