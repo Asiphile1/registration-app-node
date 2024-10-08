@@ -21,9 +21,6 @@ This is a full-stack employee registration system built using React.js on the cl
 # Screenshots
 
 
-*Contributing
-*License
-
 ## Project Overview
 
 The Employee Registration App allows users to manage employee details, including adding, updating, deleting, and searching for employees. Each employee entry consists of information such as name, email, phone number, position, and a photo. The app includes authentication using Firebase Authentication, and employee data is stored in Firebase Firestore, with employee photos stored in Firebase Storage.
